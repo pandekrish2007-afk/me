@@ -14,7 +14,7 @@ cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 TOTAL_USER = os.environ.get('TOTAL_USERS', '6053889491 ,8042759970 ,6761345074 ,8251679097 ,8164616452 , 8042759970').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
-AUTH_USER = os.environ.get('AUTH_USERS', '8042759970').split(',')
+AUTH_USER = os.environ.get('AUTH_USERS', '8370042169').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
